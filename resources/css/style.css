@@ -34,6 +34,9 @@ header {
   display: flex;
   background-color: cadetblue;
   margin-top: 1rem;
+  position: fixed;
+  width: 960px;
+  z-index: 1;
 }
 
 .logo {
@@ -182,4 +185,54 @@ footer img {
   height: 1.5rem;
   width: auto;
   margin: 4rem 1rem 4rem 4rem;
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+
+  .navmobile {
+    display: none;
+  }
+
+  .widthbanner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .contentbanner {
+    margin-top: 12rem;
+    margin-right: 2rem;
+  }
+
+  .contentbanner h1 {
+    margin: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .navmobile {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 470px) {
+  .navdesktop {
+    display: none;
+  }
+
+  .contentbanner {
+    width: 100%;
+    margin: 0;
+  }
+
 }
