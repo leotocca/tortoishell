@@ -227,6 +227,10 @@ footer img {
 
 @media only screen and (max-width: 470px) {
 
+  .width {
+    width: 100%
+  }
+
   .imagebanner {
     height: 17rem;
   }
@@ -236,6 +240,7 @@ footer img {
   }
 
   .navmobile {
+    display: inline-block;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
@@ -248,9 +253,19 @@ footer img {
     display: none;
   }
 
+  .widthreloaded {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .containerbanner {
+    width: 100%;
+  }
+
   .contentbanner {
     margin: 9rem 0 0 0;
-    width: 100%
+    width: 100%;
   }
 
   .contentbanner h1 {
@@ -267,12 +282,14 @@ footer img {
     align-items: center;
   }
 
-  .service2, .service3 {
+  .service2 {
     margin-top: 1.34rem;
+  }
+
+  .service2, .service3 {
     margin-left: 0;
     margin-bottom: 0;
   }
-
 
   .servicetext {
     font-size: 0.77rem;
@@ -286,7 +303,8 @@ footer img {
   }
 
   .philosophytitle {
-    width: 100%
+    width: 100%;
+    text-align: center;
   }
 
   .philosophy2 {
@@ -295,20 +313,24 @@ footer img {
 
   .philosophy2, .philosophy1 {
     margin-left: 0;
+    width: 100%;
   }
 
   .philosophytext {
     font-size: 0.77rem;
+    width: 90%;
+    margin-left: 1rem;
   }
 
   footer {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   footer span {
     display: none;
   }
-
 
 }
