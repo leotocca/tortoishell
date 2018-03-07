@@ -230,8 +230,15 @@ footer img {
     display: none;
   }
 
+  header {
+    width: 470px;
+  }
+
+  .logo span {
+    display: none;
+  }
+
   .contentbanner {
-    width: 100%;
     margin: 0;
   }
 
